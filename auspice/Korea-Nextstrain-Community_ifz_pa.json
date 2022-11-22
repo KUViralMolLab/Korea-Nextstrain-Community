@@ -2,7 +2,7 @@
   "version": "v2",
   "meta": {
     "title": "INFLUENZA PA",
-    "updated": "2022-11-11",
+    "updated": "2022-11-22",
     "build_url": "https://nextstrain.org/community/KUViralMolLab/Korea-Nextstrain-Community/ifz/pa",
     "maintainers": [
       {
@@ -36,7 +36,7 @@
         "type": "CDS"
       }
     },
-    "description": "This phylogenetic tree of the PA gene in global Influenza H3N2 subtype provided by Korea university.\n\n>> Nextstrain \ud558\ub2e8\uc5d0 \ud45c\uc2dc\ud560 \uc124\uba85\uae00\uc744 \uc791\uc131\ud574\uc8fc\uc138\uc694. \uc5b8\uc81c\ub4e0 \ud3b8\uc9d1\uac00\ub2a5\ud55c \ubd80\ubd84\uc774\uae30\ub54c\ubb38\uc5d0 \ub098\uc911\uc5d0 \uc791\uc131\ud558\uc154\ub3c4 \ubb34\ubc29\ud569\ub2c8\ub2e4. <<\n\n",
+    "description": "This phylogenetic tree of the PA gene in the global influenza H3N2 viruses is provided by Prof. Jin Il Kim of Korea University College of Medicine.\n",
     "colorings": [
       {
         "key": "gt",
@@ -145,33 +145,17 @@
       {
         "key": "country",
         "demes": {
-          "United States of America (the)": {
-            "latitude": 37.09024,
-            "longitude": -95.712891
+          "China": {
+            "latitude": 35.86166,
+            "longitude": 104.195396
           },
-          "Kyrgyzstan": {
-            "latitude": 42.882004,
-            "longitude": 74.582748
-          },
-          "Colombia": {
-            "latitude": 4.0,
-            "longitude": -72.0
+          "Afghanistan": {
+            "latitude": 33.0,
+            "longitude": 65.0
           },
           "Bosnia and Herzegovina": {
             "latitude": 44.0,
             "longitude": 18.0
-          },
-          "Hungary": {
-            "latitude": 47.0,
-            "longitude": 20.0
-          },
-          "United Kingdom of Great Britain and Northern Ireland (the)": {
-            "latitude": -0.1277583,
-            "longitude": 51.5073509
-          },
-          "China": {
-            "latitude": 35.86166,
-            "longitude": 104.195396
           },
           "Russian Federation (the)": {
             "latitude": 61.52401,
@@ -181,63 +165,87 @@
             "latitude": 25.0,
             "longitude": 45.0
           },
-          "Netherlands (the)": {
-            "latitude": 5.291266,
-            "longitude": 52.132633
+          "Czechia": {
+            "latitude": 49.75,
+            "longitude": 15.5
+          },
+          "Colombia": {
+            "latitude": 4.0,
+            "longitude": -72.0
           },
           "Jordan": {
             "latitude": 31.0,
             "longitude": 36.0
           },
-          "Japan": {
-            "latitude": 36.204823,
-            "longitude": 138.25293
-          },
-          "Kuwait": {
-            "latitude": 29.3375,
-            "longitude": 47.6581
-          },
           "Kosovo": {
             "latitude": 42.52694444,
             "longitude": 21.00722222
           },
-          "Taiwan (Province of China)": {
-            "latitude": 23.5,
-            "longitude": 121.0
-          },
-          "Australia": {
-            "latitude": -27.0,
-            "longitude": 133.0
-          },
-          "Qatar": {
-            "latitude": 25.5,
-            "longitude": 51.25
-          },
-          "Afghanistan": {
-            "latitude": 33.0,
-            "longitude": 65.0
+          "Hungary": {
+            "latitude": 47.0,
+            "longitude": 20.0
           },
           "Korea (the Republic of)": {
             "latitude": 35.907757,
             "longitude": 127.766922
           },
+          "Taiwan (Province of China)": {
+            "latitude": 23.5,
+            "longitude": 121.0
+          },
+          "United Kingdom of Great Britain and Northern Ireland (the)": {
+            "latitude": -0.1277583,
+            "longitude": 51.5073509
+          },
+          "Australia": {
+            "latitude": -27.0,
+            "longitude": 133.0
+          },
+          "Japan": {
+            "latitude": 36.204823,
+            "longitude": 138.25293
+          },
+          "Kyrgyzstan": {
+            "latitude": 42.882004,
+            "longitude": 74.582748
+          },
+          "United States of America (the)": {
+            "latitude": 37.09024,
+            "longitude": -95.712891
+          },
           "Mexico": {
             "latitude": 22.5402511,
             "longitude": -120.7880583
+          },
+          "Kuwait": {
+            "latitude": 29.3375,
+            "longitude": 47.6581
+          },
+          "Qatar": {
+            "latitude": 25.5,
+            "longitude": 51.25
           },
           "Switzerland": {
             "latitude": 47.0,
             "longitude": 8.0
           },
-          "Czechia": {
-            "latitude": 49.75,
-            "longitude": 15.5
+          "Netherlands (the)": {
+            "latitude": 5.291266,
+            "longitude": 52.132633
           }
         }
       },
       {
         "key": "region",
         "demes": {
+          "Oceania": {
+            "latitude": -18.31277778,
+            "longitude": 138.5155556
+          },
+          "South America": {
+            "latitude": -14.60472222,
+            "longitude": -57.65611111
+          },
           "Asia": {
             "latitude": 29.84055556,
             "longitude": 89.29666667
@@ -246,17 +254,9 @@
             "latitude": 46.07305556,
             "longitude": -100.5466667
           },
-          "Oceania": {
-            "latitude": -18.31277778,
-            "longitude": 138.5155556
-          },
           "Europe": {
             "latitude": 48.69083333,
             "longitude": 9.140555556
-          },
-          "South America": {
-            "latitude": -14.60472222,
-            "longitude": -57.65611111
           }
         }
       }
